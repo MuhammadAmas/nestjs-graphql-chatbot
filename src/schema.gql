@@ -1,0 +1,16 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  hello: String!
+}
+
+type Mutation {
+  sendMessage(message: String!): String!
+}
+
+type Subscription {
+  typingStatus: Boolean!
+  messageSent: String!
+}
