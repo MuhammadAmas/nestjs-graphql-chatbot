@@ -2,12 +2,23 @@
 # THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
 # ------------------------------------------------------
 
+type MessageType {
+  author: String!
+  content: String!
+}
+
+type ChatResponse {
+  botResponse: String!
+  history: [MessageType!]!
+}
+
 type Query {
   hello: String!
+  getConversationHistory: [MessageType!]!
 }
 
 type Mutation {
-  sendMessage(message: String!): String!
+  sendMessage(message: String!): ChatResponse!
 }
 
 type Subscription {
