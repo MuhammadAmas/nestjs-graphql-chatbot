@@ -45,7 +45,7 @@ A modern chatbot application built with NestJS and GraphQL, providing a robust a
 ```bash
 # Clone the repository
 git clone https://github.com/MuhammadAmas/nestjs-graphql-chatbot.git
-cd graphql-nestjs-chatbot
+cd nestjs-graphql-chatbot
 
 # Install dependencies
 npm install
